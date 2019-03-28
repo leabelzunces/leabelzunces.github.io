@@ -92,4 +92,7 @@ margin-top: 0.5em;
   .presentation > p{
     font-size: 3em;
   }
+  .presentation{
+    width: 100%;
+  }
 }
