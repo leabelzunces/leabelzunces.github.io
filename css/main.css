@@ -2,25 +2,47 @@
 body, html, p{
   font-family: "favorit-regular";
 }
+body{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
 
 h1{
   font-family: "favorit-underline";
 }
 
 
-
 /*barre du haut*/
-.header{
-  padding: 1% 1.5%;
+.header, .header-about{
+  padding: 0% 1.5%;
+  z-index: 100;
 }
 
-.header > a, a{
+
+.lien-index{
+  position: fixed;
+  padding-top: 1%;
+ }
+
+.lien-contact{
+  position: fixed;
+  /* top: 0; */
+  right: 0;
+  margin-right: 1.5%;
+  padding-top: 1%;
+ }
+.lien-index > a, .lien-contact > a{
   font-family: "favorit-underline";
   text-decoration: none;
+  color: white;
+}
+
+.header-about > .lien-index > a, .header-about > .lien-contact > a {
   color: black;
 }
 
-.header > a{
+.lien-index > a, .lien-contact >a{
   font-size: 2.5em;
 }
 
@@ -33,6 +55,21 @@ p.txtplusgros > a {
 }
 
 .header > a:hover, a:hover{
+  text-decoration: none;
+  color: magenta;
+}
+
+.header-about > .lien-index > a:hover, .header-about > .lien-contact > a:hover{
+  text-decoration: none;
+  color: magenta;
+}
+
+.container > .row > .contact > a, .container > .row > .contact > .txtplusgros > a {
+  color: black;
+  text-decoration: none;
+}
+
+.container > .row > .contact > a:hover, .container > .row > .contact > .txtplusgros > a:hover {
   text-decoration: none;
   color: magenta;
 }
@@ -56,7 +93,7 @@ p.txtplusgros > a {
   font-size: 1.2em;
 }
 .presentation, .contact{
-  margin-top: 3%;
+  margin-top: 6%;
 }
 .presentation > p, .contact > a {
   margin-top: 0px;
@@ -74,6 +111,11 @@ margin-top: 0.5em;
   /* width: 49%; */
   display: block;
   float: right;
+}
+
+img{
+  width: 100%;
+  margin-bottom: 0.7%;
 }
 
 
