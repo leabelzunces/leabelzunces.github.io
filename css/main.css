@@ -49,15 +49,31 @@ p.txtplusgros > a {
   margin-left: 0;
 }
 
-.presentation, .contact{
-  text-align: right;
-}
-
 .presentation{
+  width: 40%;
+  display: block;
+  float: left;
+  font-size: 1.2em;
+}
+.presentation, .contact{
+  margin-top: 10px;
+}
+.presentation > p, .contact > a {
+  margin-top: 0px;
+  /*line-height: 0.7em;*/
 }
 
+.presentation > p{
+}
+
+.contact > p{
+margin-top: 0.5em;
+}
 .contact{
-  line-height: 0.7em;
+  text-align: right;
+  /* width: 49%; */
+  display: block;
+  float: right;
 }
 
 
