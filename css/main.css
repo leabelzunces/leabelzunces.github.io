@@ -1,0 +1,20 @@
+body,html{
+  font-family: "favorit";
+}
+
+body,h1,p,a{
+  font-family: "favorit";
+}
+
+.lien-header-droite{
+  text-align: right;
+}
+.header{
+  padding: 1% 1.5%;
+
+}
+
+@font-face {
+ font-family: "favorit";
+ src: url("../fonts/Favorit_Regular_Underline.ttf");
+}
