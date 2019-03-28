@@ -1,20 +1,73 @@
-body,html{
-  font-family: "favorit";
+/* GENERAL*/
+body, html, p{
+  font-family: "favorit-regular";
 }
 
-body,h1,p,a{
-  font-family: "favorit";
+h1{
+  font-family: "favorit-underline";
+}
+
+
+
+/*barre du haut*/
+.header{
+  padding: 1% 1.5%;
+}
+
+.header > a, a{
+  font-family: "favorit-underline";
+  text-decoration: none;
+  color: black;
+}
+
+.header > a{
+  font-size: 2.5em;
+}
+
+.contact > a, p.txtplusgros{
+  font-size: 1.2em;
+}
+
+p.txtplusgros > a {
+  font-size: 1em;
+}
+
+.header > a:hover, a:hover{
+  text-decoration: none;
+  color: magenta;
 }
 
 .lien-header-droite{
+  float: right;
+}
+
+/*page contact*/
+.container{
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.presentation, .contact{
   text-align: right;
 }
-.header{
-  padding: 1% 1.5%;
 
+.presentation{
+}
+
+.contact{
+  line-height: 0.7em;
+}
+
+
+/* GESTION DES TYPOS*/
+@font-face {
+  font-family: "favorit-underline";
+  src: url("../fonts/Favorit_Regular_Underline.ttf");
 }
 
 @font-face {
- font-family: "favorit";
- src: url("../fonts/Favorit_Regular_Underline.ttf");
+  font-family: "favorit-regular";
+  src: url("../fonts/Favorit_Regular.ttf");
 }
