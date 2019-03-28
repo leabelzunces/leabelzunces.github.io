@@ -87,3 +87,9 @@ margin-top: 0.5em;
   font-family: "favorit-regular";
   src: url("../fonts/Favorit_Regular.ttf");
 }
+
+@media (max-width: 990px) {
+  .presentation > p{
+    font-size: 3em;
+  }
+}
